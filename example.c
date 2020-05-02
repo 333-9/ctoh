@@ -36,7 +36,7 @@ char *
 boolfuck(char *code, char *in)
 {
 	char mem[512] = { 0 }, out[20] = { 0 };
-	int  m = 256, o = 0, i = 0;
+	int  m = 2048, o = 0, i = 0;
 	for (; *code; code++) {
 		switch (*code) {
 		case '<': m--; break;
