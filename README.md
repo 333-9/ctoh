@@ -10,7 +10,7 @@ It expects GNU-like formating and C syntax:
 
 ## Example
 ``` sh
-cat example.c | ./format.awk >| out.h
+./format.awk example.c  >| out.h
 ```
 
 ## Note
